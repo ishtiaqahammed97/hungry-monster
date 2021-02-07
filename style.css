@@ -1,0 +1,31 @@
+
+#foodItems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding: 10px;
+}
+
+.foods{
+    background: rgba(119, 105, 105, 0.055);
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.foods img{
+    width: 100%;
+    border-radius: 5px;
+}
+.foods h3{
+    background-color: white;
+}
+
+#foodsDetails{
+    padding: 10px 20px 20px 200px;
+    width: 50%;
+}
+#foodsDetails img{
+    width: 80%;
+    border-radius: 10px;
+}
