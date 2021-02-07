@@ -17,15 +17,14 @@
     width: 100%;
     border-radius: 5px;
 }
-.foods h3{
-    background-color: white;
-}
-
-#foodsDetails{
+#foodPanda{
     padding: 10px 20px 20px 200px;
     width: 50%;
 }
-#foodsDetails img{
+#foodPanda img{
     width: 80%;
     border-radius: 10px;
+}
+.foods h3{
+    background-color: white;
 }

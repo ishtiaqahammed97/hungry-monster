@@ -1,6 +1,6 @@
 
 const listOfFood = document.getElementById('foodItems');
-const foodsDetails = document.getElementById('foodsDetails')
+const foodPanda = document.getElementById('foodPanda')
 
 
 const getInputValue = foodName => {
@@ -27,7 +27,7 @@ const foodItems = foods => {
 
 
     const yammiFood = food => {
-        const foodItemsDiv = foodsDetails
+        const foodItemsDiv = foodPanda
         foodItemsDiv.innerHTML = `
         <img src="${food.strMealThumb}">
         <h2>${food.strMeal}</h2>
